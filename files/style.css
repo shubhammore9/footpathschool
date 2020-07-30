@@ -1,0 +1,974 @@
+body{
+	/*background-color: #2e4045;*/
+	background-color: white;
+    /*background-color: #000000;*/
+    /*padding-top: 160px;*/
+    padding-top: 0;
+}
+/*Loading ICON Start*/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+    
+}
+/*Loading Icon End*/
+.setfont{
+font-family: 'Bree Serif', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*NAVBAR Starts*/
+img{
+	height: 80%;
+}
+.navg {
+   /* box-shadow: 0 2px 2px -2px rgba(0,0,0,0.2);*/
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,.28);
+    /*box-shadow: 0 1px 6px 0 white;*/
+}
+/*nav{
+	/*box-shadow: 0 0 0 white;*/
+	/*font-family: 'Bree Serif', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+#navlinks a:link{
+	color: white;
+
+}
+#navlinks .drmn a:link{
+	color: black;
+}
+
+
+#navlinks a:hover{
+	color: red;
+	font-size: 26px;
+
+}
+#navlinks .usrlogin a:hover{
+	color: #00ad5f;
+}
+#navlinks a:active{
+	color: #007bff;
+	font-size: 28px;
+}
+.nav-item{
+    font-weight: bold;
+}
+/*Navbar ENDS HERE*/
+.navbar{
+    font-family: 'Bree Serif', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+#navlinks  a:hover{
+	color: #db128e;;
+	font-size: 28px;
+}
+#navbarDropdown a:hover{
+	color: #007bff;
+	font-size: 20px;
+}
+#navbarDropdownImg a:hover{
+	color: #007bff;
+	font-size: 20px;
+}/*
+#navlinks a:active{
+	color: #007bff;
+	font-size: 20px;
+}*/
+#dropdown1 a:hover{
+    font-size:18px;
+}
+#navlinks .usrlogin a:hover{
+	color: #00ad5f;
+}
+.bsnav-body-wrapper {
+    padding-bottom: 100px;
+}
+.bsnav-mobile .navbar-nav {
+    width: 100%;
+    padding: 15px;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.navbar-brand {
+    font-size: 0;
+    width: 160px;
+    height: 160px;
+}
+
+.bsnav-brand-top .navbar-brand {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bsnav-light .navbar-brand,
+.bsnav-overlay .navbar-brand,
+.bsnav-overlay-light .navbar-brand {
+    opacity: .8
+}
+
+
+.bsnav-sticky {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
+}
+
+.scrollspy-demo {
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center
+}
+
+.scrollspy-demo:nth-child(odd) {
+    background: #f7f7f7
+}/*
+@media (min-width:1100px){
+    .loginicon{
+        margin-left: 35px;
+    }
+}*/
+
+/*NEW NAV ENDS HERE*/
+
+/*MODAL FORM START HERE */
+.modal-login .modal-header {
+	position: relative;
+	justify-content: center;
+	background: #f2f2f2;
+}
+.modal-login .close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background-color: red;
+}
+
+.modal-login .btn {
+	min-width: 100px;
+	background: #db128e ;
+	border: none;
+	line-height: normal;
+}
+
+.modal-login .btn:hover, .modal-login .btn:focus {
+	background: #007bff ;
+}
+.modal-login .btn:active {
+    background: #8f9296;
+}
+
+.modal-login .hint-text a {
+	color: #999;
+}.setpd{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+  }
+
+/*MODAL LOGIN END HERE*/
+
+/*Contact US Starts Here*/
+
+/*Multiple Button*/
+#b3{
+	margin-top: 5px;
+}
+
+.headcont{
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	padding: 8px 20px;
+	line-height: 1.2;
+	margin: 0;
+	background: #fae6e6/*#fdeff2*/;
+	color: /*#e43c5c*/ purple;
+	display: inline-block;
+	text-transform: uppercase;
+	border-radius: 50px;
+}
+.formstyle{
+	width: 100%;
+
+}
+@media (min-width: 900px){
+	.formstyle{
+		width: 50%;
+	}
+}
+
+
+.contactbg::before{
+	color: black; 
+	content: "";
+	display: block;
+	z-index: -1;
+	width: auto;
+	height: 430px;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+.contactbg{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+	color: white;
+	/*padding: 30px 15px 0px 15px;*/
+
+}
+
+@media (min-width : 900px){
+.contactbg::before{
+	color: black; 
+	content: "";
+	display: block;
+	z-index: -1;
+	width: 100%;
+	height: 430px;
+	top: 0;
+	left: 0;
+	
+	background: rgba(0,0,0,0.5);
+	}
+}
+@media (min-width:900px){
+	.contactbg{
+	width: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+	color: white;
+	/*padding: 30px 15px 0px 15px;*/
+
+	}
+}
+
+.adjfont{
+	font-size: 22px;
+	margin-left: 45px;
+	text-decoration: underline;
+}
+@media (max-width: 360px){
+	.adjfont{
+		font-size: 16px;
+		margin-left: 15px;
+		text-decoration: underline;
+	}
+}
+@media (min-width: 355px) and (max-width: 400px){
+	.adjfont{
+		font-size: 18px;
+		margin-left: 25px;
+		text-decoration: underline;
+	}
+}
+
+/*Contact Us Ends*/
+
+/*Gallery Start*/
+.fancyline{
+	border: black 3px solid;
+}
+.youtubeButton{
+	border: none;
+	font-size: 2em;
+	margin-left: 5px;
+	padding: 10px 5px;
+	font-family: Roboto,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: red;
+	color: white;
+	font-weight: 600;
+}
+
+/*Footer START HERE */
+
+  
+footer{
+	position: fixed;
+	bottom: 0;
+}
+ 
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+ 
+ 
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 50px 50px;
+	margin-top: 80px;
+}
+@media (max-width: 350px){
+	.footer-distributed{
+		background-color:#2c292f;
+		box-sizing: border-box;
+		width: 100%;
+		text-align: left;
+		font: bold 16px sans-serif;
+		padding-left: 15px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-right: 15px;
+		margin-top: 80px;
+	}
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+/* Footer left */
+ 
+.footer-distributed .footer-left{
+	width: 30%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 26px 'Cookie',Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0;
+}
+ 
+/* The company logo */
+ 
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+ 
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+ 
+/* Footer links */
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+ 
+/* Footer Center */
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+ 
+ 
+/* Footer Right */
+ 
+.footer-distributed .footer-right{
+	width: 30%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 25px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+ 
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+ 
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+ 
+}
+
+
+/*Index Page*/
+
+.bacpic {
+	/*background-image: url("../img/img5.jpg");*/
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	height: 300px;
+	/*background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+	background-color: transparent;*/
+  }
+  @media (min-width: 970px){
+	.bacpic {
+		/*background-image: url("../img/img5.jpg");*/
+		background-position: center;
+		background-size: cover;
+		width: auto;
+		height: 400px;
+		/*background-repeat: no-repeat;
+		position: relative;
+		z-index: 1;
+		background-color: transparent;*/
+	  }
+  }
+  .adjprop {
+	position: relative;
+	z-index: 1;
+	background-color: transparent;
+  }
+  
+  .hit-the-floor {
+	  background-color: #f1f1f1	;
+	color: #fff;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-shadow: 
+	  0 1px 0 #ccc, 
+	  0 2px 0 #c9c9c9, 
+	  0 3px 0 #bbb, 
+	  0 4px 0 #b9b9b9, 
+	  0 5px 0 #aaa, 
+	  0 6px 1px rgba(0,0,0,.1), 
+	  0 0 5px rgba(0,0,0,.1), 
+	  0 1px 3px rgba(0,0,0,.3), 
+	  0 3px 5px rgba(0,0,0,.2), 
+	  0 5px 10px rgba(0,0,0,.25), 
+	  0 10px 10px rgba(0,0,0,.2), 
+	  0 20px 20px rgba(0,0,0,.15);
+  }
+  
+  .hit-the-floor {
+	text-align: center;
+  }
+  
+
+  
+.custom-border{
+	border:3px solid cyan;
+	border-radius: 0.5rem;
+	font-family: georgia;
+	font-size: 1.2rem;
+	
+}
+.service_part {
+  padding: 28px 0px 140px;
+  font-family: 'Bree Serif', Verdana, Geneva, Tahoma, sans-serif;
+  color: #000;
+}
+
+@media (max-width: 991px) {
+  /* line 2, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+  .service_part {
+    padding: 110px 0px 70px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 2, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+  .service_part {
+    padding: 80px 0px 80px;
+  }
+}
+
+
+/* line 13, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+.service_part .mt_60 {
+  margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+  /* line 17, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+  .service_part .service_text {
+    margin-top: 15px;
+  }
+}
+
+/* line 24, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+.service_part .service_text h2 {
+  font-size: 36px;
+  margin-bottom: 34px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+/* line 30, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+.service_part .service_text h2 span {
+  color: #8d00ff;
+}
+
+@media (max-width: 991px) {
+  /* line 24, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+  .service_part .service_text h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    line-height: 35px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 24, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+  .service_part .service_text h2 {
+    font-size: 31px;
+    margin: 20px 0 15px;
+  }
+}
+
+/* line 45, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+.service_part .service_text h2 span {
+  font-weight: 400;
+}
+
+/* line 51, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+.service_part .service_text p {
+  margin-bottom: 15px;
+}
+
+/* line 55, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+.service_part .service_text .btn_3 {
+  margin-top: 45px;
+}
+
+@media (max-width: 991px) {
+  /* line 55, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+  .service_part .service_text .btn_3 {
+    margin-top: 10px;
+  }
+}
+
+.service_part .service_text .btn_3 {
+  margin-top: 45px;
+}
+
+@media (max-width: 991px) {
+  /* line 55, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_service.scss */
+  .service_part .service_text .btn_3 {
+    margin-top: 10px;
+  }
+}
+
+.titleText{
+	font-family: 'Pacifico', cursive; 
+	color: gold; 
+	font-size: 2em; 
+	font-weight: bold; 
+	text-align: center; 
+
+}
+.boxShadow{
+	margin-top: 2px;
+	box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+.someTxt{
+	color: #333;
+	-webkit-text-stroke: 1px #282828;
+	text-shadow: 0px 4px 4px #282828;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+.btn_3{
+	box-shadow:
+	 0 16px 24px 2px rgba(0, 0, 0, .14),
+	 0 6px 30px 5px rgba(0, 0, 0, .12),
+	 0 8px 10px -5px rgba(0, 0, 0, .2)
+}
+.hideimg{
+	position: cover;
+	width: 95%;
+	height: 300px;
+	align-items: center;
+  }
+  @media (max-width:992px) {
+	.hideimg {
+	  display: none;
+	}
+  }
+
+  .card-shadow{
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  .single_service_text {
+	  font-family:  'Bree Serif', Verdana, Geneva, Tahoma, sans-serif;
+	padding: 30px;
+	margin-top: 30px;
+	background-color: #fafafa;
+	position: relative;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 50px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	color: black;
+  }
+  .bord{
+	border: solid 1px white;
+}
+.headline{
+    font: bold 34px "Century Schoolbook", Georgia, Times, serif;
+ 	color: #333;
+ 	line-height: 95%;
+ 	margin: 1em 0 0em 0;
+	letter-spacing: -2px;
+	text-align: center;
+	border: 2px solid #000;
+	border-radius: 5px;
+	padding:0.4em 0;
+
+}
+ 
+.tag{
+    color: #76879b;
+    font-size: 10px;
+    margin: 5px;
+    font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+}
+
+/*PASTEVENTS START */
+.counterCard{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0.5em 0.2em;
+	padding: 2;
+}
+/*PASTEVENTS END */
+
+
+/* Sections Header
+--------------------------------*/
+.section-header .section-title {
+	font-size: 32px;
+	color: #111;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	margin-bottom: 5px;
+  }
+/* Facts Section
+--------------------------------*/
+#facts {
+	background: #d9d9d9;
+	padding: 70px 0 30px 0;
+  }
+  
+  #facts .counters span {
+	font-size: 48px;
+	display: block;
+	color: #2dc997;
+  }
+  
+  #facts .counters p {
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-family: "Poppins", sans-serif;
+	font-size: 14px;
+  }
+  
+
+  /************** blog part css****************/
+@media (max-width: 991px) {
+	/* line 2, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+	.blog_part {
+	  padding-bottom: 40px;
+	}
+  }
+  
+  /* line 11, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+  .blog_part .appartment_img img {
+	width: 100%;
+  }
+  
+  /* line 16, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+  .blog_part .blog_part_tittle h2 {
+	font-size: 24px;
+	font-weight: 700;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	text-transform: capitalize;
+	margin-bottom: 80px;
+	line-height: 24px;
+  }
+  
+  /* line 26, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+  .blog_part .blog_part_tittle h2:after {
+	position: absolute;
+	top: 12px;
+	left: 131px;
+	content: "";
+	width: 180px;
+	height: 1px;
+	background-color: #000;
+  }
+  
+  @media (max-width: 991px) {
+	/* line 26, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+	.blog_part .blog_part_tittle h2:after {
+	  width: 100px;
+	  left: 127px;
+	}
+  }
+  
+  /* line 41, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+  .blog_part .blog_part_tittle h2 span {
+	color: #8d00ff;
+  }
+  
+  @media (max-width: 991px) {
+	/* line 16, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+	.blog_part .blog_part_tittle h2 {
+	  margin-bottom: 20px;
+	}
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+	/* line 16, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+	.blog_part .blog_part_tittle h2 {
+	  margin-bottom: 40px;
+	}
+  }
+  
+  /* line 55, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+  .blog_part .single_blog {
+	border-radius: 50px 0 50px 0;
+	background-color: #e8e8e8	;
+  }
+  
+  @media (max-width: 991px) {
+	/* line 55, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+	.blog_part .single_blog {
+	  margin-bottom: 30px;
+	}
+  }
+  
+  /* line 65, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+  .blog_part .single_blog .single_appartment_content {
+	padding: 26px 25px 32px 33px;
+  }
+  
+  @media (max-width: 576px) {
+	/* line 65, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+	.blog_part .single_blog .single_appartment_content {
+	  padding: 20px;
+	}
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+	/* line 65, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+	.blog_part .single_blog .single_appartment_content {
+	  padding: 20px;
+	}
+  }
+  
+  /* line 80, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+  .blog_part .single_blog .single_appartment_content p {
+	font-size: 16px;
+	margin-bottom: 26px;
+	color: #000;
+  }
+  
+  @media (max-width: 576px) {
+	/* line 80, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+	.blog_part .single_blog .single_appartment_content p {
+	  margin-bottom: 15px;
+	}
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+	/* line 80, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+	.blog_part .single_blog .single_appartment_content p {
+	  margin-bottom: 15px;
+	}
+  }
+  
+  /* line 97, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+  .blog_part .single_blog .single_appartment_content p a {
+	color: #8d00ff;
+  }
+  
+  /* line 102, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+  .blog_part .single_blog .single_appartment_content h3 {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 25px;
+	margin-bottom: 25px;
+	color: #000;
+	text-decoration: underline;
+  }
+  
+  @media (max-width: 991px) {
+	/* line 102, ../../01 cl html template/03_jun 2019/183_Charity_html/sass/_blog_part.scss */
+	.blog_part .single_blog .single_appartment_content h4 {
+	  font-size: 21px;
+	  margin-bottom: 15px;
+	  color: #000;
+	}
+  }
+  .onhov :hover,
+  .onhov :active{
+	color: #fff;
+	background-color: #333;
+  }
+  /*Show Events*/
+  .newCard{
+	width:auto;
+	box-shadow: 0px 8px 60px -10px rgba(13,28,39,0.6);
+	background: #fff;
+	border-radius: 12px;
+	border: cyan solid 2px;
+	color: #000;
+	height: auto;
+	
+  }
+  .eventphoto{
+	width: 100%;
+	height:300px;
+	border: #000 1px solid;
+	margin: 5px;  
+  }  
+  .setpd{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+  }
+
+
+  
+  .quote{
+	  height:fit-content;
+	  color: white;
+	  font-size: 16px;
+  }
+  .quote div{
+	  font-size: 22px;
+  }
+  .quote span{
+	  color: yellow;
+	  padding:  8px;
+  }
+  .quote p{
+	  padding: 10px 10px;
+	  text-align: justify;
+  }
+  .quote footer{
+	  margin-bottom: 20px;
+	  font-size:16px;
+	  font-weight: bold;
+  }
